@@ -1,3 +1,32 @@
+/* 박지수님 작성 */
+.pencil-banner {
+    background-color: #f7f7f7;
+    height: 68px;
+    margin: -16px;
+    color: #505050;
+    text-align: center;
+}
+
+.disappearbar {
+    padding: 14px;
+    font-size: .875rem;
+}
+
+.header {
+    justify-content: center;
+    display: flex;
+}
+
+.mainheader {
+    width: 1440px;
+    height: 100px;
+    display: flex;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 16px;
+}
+
+/* 최강현님 작성 */
 .clearfix::after{
     content: "";
     display: block;
@@ -10,16 +39,49 @@
 .logo img{
     width: 100px;
     height: 50px;
+    position: relative;
+    top: 28px;
 }
-.centerheader{
-    margin-left: 30px;
+
+.centerheader {
+    /* margin-left: 30px;
     padding-top: 18px;
-    float: left;
+    float: left; */
+    padding-right : 20px;
+    width: 858.98px;
+    height: 100px;
 }
-.centerheader div{
+
+.menu-item {
+    display: inline-block;
+    margin-right: px;
+    padding-right: px;
+    padding-left: 30px;
+    position: relative;
+    top: 39.5px;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: left;
+}
+
+/* .centerheader div{
     display: inline;
-    margin-left: 20px;
+} */
+
+.arrow {
+    display: inline-block;
+    transform: rotate(135deg);
+    content: "";
+    position: relative;
+    right: 0;
+    top: 39%;
+    width: 6px;
+    height: 6px;
+    border-top: 1.5px solid;
+    border-right: 1.5px solid;
 }
+
+/* 임시, 문가현님 작성 */
 .rightheader{
     margin-right: 70px;
 
